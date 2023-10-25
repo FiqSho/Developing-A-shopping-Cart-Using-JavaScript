@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+ <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <div class="flex">
+        <!-- Product List -->
+        <div class="w-1/2 ml-10 mt-10 h-80vh border border-blue-500 flex flex-col items-center">
+            <h1 class="font-bold text-3xl">Product List</h1>
+            <!-- Product 1 -->
+            <div class="w-1/2 border border-black-500 flex flex-col items-center">
+                <h1 class="font-bold text-xl">Product 1</h1>
+                <img src="https://dummyimage.com/100x70/000/fff" alt="Product 1 img">
+                <h3>15$</h3>
+                <button id="addBtn1"value="Product 1" class="bg-blue-400 hover:bg-blue-600 text-white  py-2 px-4 rounded">
+                   Add to cart
+                  </button>
+                  </div>
+            <!-- Product 2 -->
+            <div class="w-1/2 border border-black-500 flex flex-col items-center">
+                <h1 class="font-bold text-xl">Product 2</h1>
+                <img src="https://dummyimage.com/100x70/000/fff" alt="Product 1 img">
+                <h3>10$</h3>
+                <button id="addBtn2" value="Product 2" class="bg-blue-400 hover:bg-blue-600 text-white  py-2 px-4 rounded">
+                   Add to cart
+                  </button>
+                </div>
+            <!-- Product 3 -->
+            <div class="w-1/2 border border-black-500 flex flex-col items-center">
+                <h1 class="font-bold text-xl">Product 3</h1>
+                <img src="https://dummyimage.com/100x70/000/fff" alt="Product 1 img">
+                <h3>90$</h3>
+                <button id="addBtn3"value="Product 3" class="bg-blue-400 hover:bg-blue-600 text-white  py-2 px-4 rounded">
+                   Add to cart
+                  </button>
+                </div>
+            <!-- Product 4 -->
+            <div class="w-1/2 border border-black-500 flex flex-col items-center">
+                <h1 class="font-bold text-xl">Product 4</h1>
+                <img src="https://dummyimage.com/100x70/000/fff" alt="Product 1 img">
+                <h3>20$</h3>
+                <button id="addBtn4"value="Product 4" class="bg-blue-400 hover:bg-blue-600 text-white  py-2 px-4 rounded">
+                    
+                   Add to cart
+                  </button>
+                </div>
+            
+        </div>
+        <!-- Cart -->
+        <div class="w-1/2 ml-10 mr-10 mt-10 border border-blue-500 flex flex-col items-center">
+            <h1 class="font-bold text-3xl">Cart</h1>
+            <div class="flex space-x-20 text-xl border w-full pl-10" >
+                <ol id="cartList">
+
+                </ol>
+            
+        </div>
+    </div>
+        
+        <script src="./script.js" async defer></script>
+    </body>
+</html>
